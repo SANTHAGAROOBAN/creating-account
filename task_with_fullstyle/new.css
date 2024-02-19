@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background:url(./anders-jilden-AkUR27wtaxs-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.wrapper{
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+    color: azure;
+
+    height: 460px;
+    width: 450px;
+    border-style: solid;
+    border-color:white;
+    border-width: 1px;
+    border-radius: 20px;
+
+
+}
+h1{
+    margin-left: 10px;
+}
+form{
+    margin: 10px;
+}
+
+input{
+    margin: 10px;
+
+}
+.input1{
+    padding: 10px;
+    width: 192px;
+}
+.input2{
+    padding: 10px;
+    width: 410px;
+}
+.p{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.checkbox{
+    display: inline-block;
+    margin-top: 10px;
+}
+.checkbox {
+    font-size: 15px;
+    margin-top: 10px;
+}
+.checkbox .one{
+    color: blue;
+    display: inline-block;
+}
+
+.checkbox .cop{
+    margin-left: 26px;
+}
+button{
+    background-color: blue;
+    padding: 10px;
+    margin-left: 10px;
+    padding-left: 180px;
+    padding-right: 180px;
+    border: 0;
+    margin-top: 20px;
+}
